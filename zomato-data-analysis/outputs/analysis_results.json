@@ -1,0 +1,297 @@
+{
+  "raw_shape": [
+    9552,
+    22
+  ],
+  "clean_shape": [
+    9550,
+    21
+  ],
+  "duplicates_raw": 0,
+  "missing_raw": {
+    "missing_count": {
+      "Cuisines": 10,
+      "Votes": 2,
+      "Rating text": 2,
+      "Rating color": 2,
+      "Aggregate rating": 2,
+      "Price range": 2,
+      "Currency": 1,
+      "Switch to order menu": 1,
+      "Is delivering now": 1,
+      "Has Online delivery": 1,
+      "Has Table booking": 1,
+      "Average Cost for two": 1,
+      "Latitude": 1,
+      "Longitude": 1,
+      "Locality Verbose": 1,
+      "Locality": 1,
+      "Restaurant ID": 0,
+      "Address": 0,
+      "City": 0,
+      "Country Code": 0,
+      "Restaurant Name": 0,
+      "Unnamed: 0": 0
+    },
+    "missing_pct": {
+      "Cuisines": 0.1,
+      "Votes": 0.02,
+      "Rating text": 0.02,
+      "Rating color": 0.02,
+      "Aggregate rating": 0.02,
+      "Price range": 0.02,
+      "Currency": 0.01,
+      "Switch to order menu": 0.01,
+      "Is delivering now": 0.01,
+      "Has Online delivery": 0.01,
+      "Has Table booking": 0.01,
+      "Average Cost for two": 0.01,
+      "Latitude": 0.01,
+      "Longitude": 0.01,
+      "Locality Verbose": 0.01,
+      "Locality": 0.01,
+      "Restaurant ID": 0.0,
+      "Address": 0.0,
+      "City": 0.0,
+      "Country Code": 0.0,
+      "Restaurant Name": 0.0,
+      "Unnamed: 0": 0.0
+    }
+  },
+  "cleaning_log": {
+    "dropped_unnamed_columns": [
+      "Unnamed: 0"
+    ],
+    "avg_cost_nulls_before": 1,
+    "avg_cost_nulls_after": 2,
+    "avg_cost_converted_to_nan": 1,
+    "corrupted_rows_dropped": 2,
+    "dropped_restaurant_names": [
+      "Super Loco",
+      "Robertson Quay, Singapore River, Singapore"
+    ],
+    "rows_after_cleaning": 9550,
+    "columns_after_cleaning": 21
+  },
+  "unique_cities": 141,
+  "top_city": "New Delhi",
+  "top_city_count": 5473,
+  "top_cuisine": "North Indian",
+  "top_cuisine_count": 3960,
+  "avg_rating": 2.666314136125654,
+  "max_votes": 10934.0,
+  "top_voted_restaurants": [
+    {
+      "Restaurant Name": "Toit",
+      "City": "Bangalore",
+      "Votes": 10934.0,
+      "Aggregate rating": 4.8
+    }
+  ],
+  "avg_cost_for_two": 1199.326387434555,
+  "online_summary": [
+    {
+      "online_delivery_status": "No",
+      "restaurant_count": 7099,
+      "average_rating": 2.465192280602902
+    },
+    {
+      "online_delivery_status": "Yes",
+      "restaurant_count": 2451,
+      "average_rating": 3.2488372093023252
+    }
+  ],
+  "online_yes_avg": 3.2488372093023252,
+  "online_no_avg": 2.465192280602902,
+  "online_diff": 0.7836449286994234,
+  "table_summary": [
+    {
+      "table_booking_status": "No",
+      "restaurant_count": 8392,
+      "average_rating": 2.5592826501429933
+    },
+    {
+      "table_booking_status": "Yes",
+      "restaurant_count": 1158,
+      "average_rating": 3.4419689119170984
+    }
+  ],
+  "table_yes_avg": 3.4419689119170984,
+  "table_no_avg": 2.5592826501429933,
+  "table_diff": 0.8826862617741051,
+  "top10_cities": [
+    {
+      "Rank": 1,
+      "City": "New Delhi",
+      "Restaurant Count": 5473
+    },
+    {
+      "Rank": 2,
+      "City": "Gurgaon",
+      "Restaurant Count": 1118
+    },
+    {
+      "Rank": 3,
+      "City": "Noida",
+      "Restaurant Count": 1080
+    },
+    {
+      "Rank": 4,
+      "City": "Faridabad",
+      "Restaurant Count": 251
+    },
+    {
+      "Rank": 5,
+      "City": "Ghaziabad",
+      "Restaurant Count": 25
+    },
+    {
+      "Rank": 6,
+      "City": "Bhubaneshwar",
+      "Restaurant Count": 21
+    },
+    {
+      "Rank": 7,
+      "City": "Amritsar",
+      "Restaurant Count": 21
+    },
+    {
+      "Rank": 8,
+      "City": "Ahmedabad",
+      "Restaurant Count": 21
+    },
+    {
+      "Rank": 9,
+      "City": "Lucknow",
+      "Restaurant Count": 21
+    },
+    {
+      "Rank": 10,
+      "City": "Guwahati",
+      "Restaurant Count": 21
+    }
+  ],
+  "top10_cuisines": [
+    {
+      "Cuisine": "North Indian",
+      "Count": 3960
+    },
+    {
+      "Cuisine": "Chinese",
+      "Count": 2735
+    },
+    {
+      "Cuisine": "Fast Food",
+      "Count": 1986
+    },
+    {
+      "Cuisine": "Mughlai",
+      "Count": 995
+    },
+    {
+      "Cuisine": "Italian",
+      "Count": 764
+    },
+    {
+      "Cuisine": "Bakery",
+      "Count": 745
+    },
+    {
+      "Cuisine": "Continental",
+      "Count": 736
+    },
+    {
+      "Cuisine": "Cafe",
+      "Count": 703
+    },
+    {
+      "Cuisine": "Desserts",
+      "Count": 653
+    },
+    {
+      "Cuisine": "South Indian",
+      "Count": 636
+    }
+  ],
+  "rating_by_price": {
+    "1.0": 1.999887488748875,
+    "2.0": 2.9410536460006425,
+    "3.0": 3.6833806818181816,
+    "4.0": 3.818974358974359
+  },
+  "numeric_stats": {
+    "Average Cost for two": {
+      "count": 9550.0,
+      "mean": 1199.3264,
+      "median": 400.0,
+      "std": 16122.0232,
+      "min": 0.0,
+      "max": 800000.0
+    },
+    "Price range": {
+      "count": 9550.0,
+      "mean": 1.8046,
+      "median": 2.0,
+      "std": 0.9054,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "Aggregate rating": {
+      "count": 9550.0,
+      "mean": 2.6663,
+      "median": 3.2,
+      "std": 1.5164,
+      "min": 0.0,
+      "max": 4.9
+    },
+    "Votes": {
+      "count": 9550.0,
+      "mean": 156.923,
+      "median": 31.0,
+      "std": 430.1897,
+      "min": 0.0,
+      "max": 10934.0
+    }
+  },
+  "quartiles": {
+    "Average Cost for two": {
+      "25%": 250.0,
+      "50%": 400.0,
+      "75%": 700.0
+    },
+    "Price range": {
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 2.0
+    },
+    "Aggregate rating": {
+      "25%": 2.5,
+      "50%": 3.2,
+      "75%": 3.7
+    },
+    "Votes": {
+      "25%": 5.0,
+      "50%": 31.0,
+      "75%": 131.0
+    }
+  },
+  "not_rated_count": 2148,
+  "rated_avg": 3.4400567414212375,
+  "delivery_share": {
+    "No": 74.34,
+    "Yes": 25.66
+  },
+  "booking_share": {
+    "No": 87.87,
+    "Yes": 12.13
+  },
+  "avg_cost_dtype_raw": "object",
+  "avg_cost_dtype_clean": "float64",
+  "chart_paths": {
+    "top_10_cities": "/Users/turjoysaha/Desktop/UST/100_Next_Gen_AI/zomato-data-analysis/outputs/charts/top_10_cities.png",
+    "rating_distribution": "/Users/turjoysaha/Desktop/UST/100_Next_Gen_AI/zomato-data-analysis/outputs/charts/rating_distribution.png",
+    "online_delivery": "/Users/turjoysaha/Desktop/UST/100_Next_Gen_AI/zomato-data-analysis/outputs/charts/online_delivery.png",
+    "top_10_cuisines": "/Users/turjoysaha/Desktop/UST/100_Next_Gen_AI/zomato-data-analysis/outputs/charts/top_10_cuisines.png",
+    "rating_by_price_range": "/Users/turjoysaha/Desktop/UST/100_Next_Gen_AI/zomato-data-analysis/outputs/charts/rating_by_price_range.png"
+  }
+}
