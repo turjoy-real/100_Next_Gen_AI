@@ -1,11 +1,12 @@
 # 100 Next Gen AI — Assignments
 
-Machine Learning / Data Analysis assignment workspace.
+Machine Learning / Data Analysis / Prompt Engineering assignment workspace.
 
 | Project | Description |
 |---------|-------------|
 | [`zomato-data-analysis/`](zomato-data-analysis/) | Zomato restaurant dataset — Exploratory Data Analysis (EDA) |
 | [`diabetes-prediction/`](diabetes-prediction/) | Diabetes prediction — end-to-end classification with Scikit-learn |
+| [`prompt-engineering/`](prompt-engineering/) | Assignment 3 — Prompt engineering on real-world scenarios (Q1–Q13) |
 
 ## Prerequisites
 
@@ -113,6 +114,12 @@ Details: [`diabetes-prediction/README.md`](diabetes-prediction/README.md)
 
 ---
 
+## Assignment 3 — Prompt Engineering
+
+Prompts and write-up: [`prompt-engineering/reports/assignment_3_prompt_engineering.md`](prompt-engineering/reports/assignment_3_prompt_engineering.md)
+
+---
+
 ## Project layout
 
 ```text
@@ -128,6 +135,10 @@ Details: [`diabetes-prediction/README.md`](diabetes-prediction/README.md)
 │   ├── reports/
 │   ├── src/
 │   └── requirements.txt
+├── prompt-engineering/
+│   ├── reports/
+│   │   └── assignment_3_prompt_engineering.md
+│   └── README.md
 └── zomato-data-analysis/
     ├── data/
     ├── notebooks/
